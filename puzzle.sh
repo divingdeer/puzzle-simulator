@@ -4,7 +4,7 @@ HEIGHT=$2
 
 if [ ! -f "./puzzle.out" ]
 then
-    echo "File $FILE does not exists, compiling it now!"
+    echo "File $FILE does not exist, compiling it now!"
     gcc puzzle.c -std=c99 -o puzzle.out
 fi
 
